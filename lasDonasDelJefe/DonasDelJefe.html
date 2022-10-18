@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Donas del Jefe</title>
+</head>
+<body>
+    <header>
+        <h1>Las Donas del jefe, solo lo mejor</h1>
+    </header>
+    <img src="./las donas del jefe.png" alt="logo donas del jefe">
+
+    <h2><b>Menu</b></h2>
+        <h3></h3><b>Donas rellenas</b>
+        <p>Sin glaseados</p>
+        <ul>
+            <li>Dulce de leche .............. $1</li>
+            <li>Chispas ....................$!</li>
+            <li>Chocolate .................$1</li>
+        </ul>
+    <h3><b>Donas simples</b></h3>
+        <p>Sin relleno</p>
+        <ul>
+            <li>Chispas de colores .................$5</li>
+            <li>Mani .................$5</li>
+            <li>Azucaradas .................$5</li>
+        </ul>
+
+    <h3><b>Especiales</b></h3>
+    <p>Incluye un cafe</p>
+    <dl>
+        <dt>Glaseadas .................$10</dt>
+        <dd>Donas glaceadas y con relleno de dulce de leche</dd>
+        <dt>Chispeadas .................$10</dt>
+        <dd>Donas cubiertas de chispas y con relleno de chocolate</dd>
+        <dt>BIgBoss ................$15</dt>
+        <dd>Dona glaseada con chocolate, cubierta con chispas y rellena con dulce de leche</dd>
+
+    </dl>
+
+   <hr>
+
+    <h2>Ubicacion</h2>
+    <h3>Sucursales</h3>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicacion</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Centro</td>
+            <td><a href="https://goo.gl/maps/26K32NReRLMPDBKF6" target="blank">Frente al Convento de las Monjas San Jose, Llorente</a></td>
+            <td>L - D 24h</td>
+        </tr>
+        <tr>
+            <td>Sur</td>
+            <td><a href="https://goo.gl/maps/9gzp6syiyGvhie2F8" target="blank">Provincia de Puntarenas, Guácimo</a></td>
+            <td>L - D 5pm - 3am</td>
+        </tr>
+        <tr>
+            <td>Norte</td>
+            <td><a href="https://goo.gl/maps/61HZFcQPPgT8sxEh6" target="blank">Chorotega, Provincia de Guanacaste, Liberia</a></td>
+            <td>M - D 5pm - 3am</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Pedidos</h2>
+    <h3>Haz tu pedio aqui</h3>
+    <form action="">
+        <p>De que sucursar quieres?</p>
+        <select>
+            <section value="Norte">Norte</section>
+            <section value="Centro">Centro</section>
+            <section value="Sur">Sur</section>
+        </select>
+        <p>Cual quieres?</p>
+        <input type="checkbox" id="DulceDeleche" name="DulceDeleche" value="DulceDeleche">
+        <label for="DulceDeleche">Dulce de leche</label>
+        <input type="number" id="DulceDeLecheN" name="DulceDelecheN" placeholder="cuantos">
+        <br>
+        <input type="checkbox" id="chispas" name="chispas" value="chispas">
+        <label for="chispas">Chispas</label>
+        <input type="number" id="chispasN" name="chispasN" placeholder="cuantos">    
+        <br>
+        <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+        <label for="chocolate">Chocolate</label>
+        <input type="number" id="chocolateN" name="chocolateN" placeholder="cuantos">
+        <br><br>
+
+        <label for="nombre">nombre</label><br>
+        <input type="text" id="mombre" name="nombre" placeholder="como te llamas?">
+
+        <br><br>
+
+        <label for="telefono">telefono</label><br>
+        <input type="text" id="telefono" name="telefono" placeholder="cual es tu numero?">
+        
+        <br><br>
+
+        <label for="direcion">direcion</label><br>
+        <input type="text" id="direcion" name="direcion" placeholder="cual es tu direccion?">
+
+        <button type="submit">enviar</button>
+    </form>
+
+</body>
+</html>
