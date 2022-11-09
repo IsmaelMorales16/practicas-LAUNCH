@@ -1,0 +1,182 @@
+/*generales*/
+.titulo{
+    color: rgb(0, 13, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    margin: 10px;
+    color: rgba(33, 33, 209, 0.594);
+}
+
+body{
+    background-image: url(bg.png);
+    background-size: contain;
+}
+h2{
+    color: rgba(34, 34, 111, 0.915);
+}
+/*todo lo que involucra al header*/
+header{
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.545);
+}
+ul.cabezera{
+    list-style-type: none;
+    margin: -45px 540px;
+    padding: 0;
+    width: 550px;
+    background-color:rgba(128, 128, 128, 0.038);
+    
+}
+li.cabezera{
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    border-right: 1px solid black;
+    min-width: 15px;
+    padding: 15px;
+    
+}
+li#li_cabezera4{
+    border-right: none;
+}
+
+
+/*Todo lo que involucra el parrafo 1*/
+div.parrafo1{
+    font-family: Arial, Helvetica, sans-serif; 
+    border:none solid black;
+    height: 400px;
+    text-align:left;
+}
+#img1{
+    margin: -150px 830px; 
+    background-color: rgba(0, 0, 255, 0.637);
+}
+
+#formularioCitas{
+    margin: -130px 10px;  
+    background-color: rgba(0, 162, 255, 0.067);
+}
+#sec_form2{
+    margin: -47px 180px;
+}
+#sec_form3{
+    margin: 1px 390px;
+}
+#boton_form1{
+    margin: 30px 5px;
+    
+    width: 100px;
+}
+#imgformulario_cita{
+    height: 20px;
+    width: 20px;
+}
+#imgformulario_cita_1{
+    height: 20px;
+    width: 20px;
+}
+#imgformulario_cita_2{
+    height: 23px;
+    width: 23px;
+}
+#imgformulario_cita_3{
+    height: 23px;
+    width: 23px;
+}
+/*Todo lo que involucra el parrafo 2*/
+div.parrafo2{
+    font-family: Arial, Helvetica, sans-serif;
+    border:none solid black;
+    height: 600px;
+}
+.ul_parrafo2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.li_parrafo2_1{
+    margin:10px ;
+}
+#imgparrafo2_1{
+    height: 40px;
+    width: 40px;
+    margin:0 100px;
+}
+
+.li_parrafo2_2{
+    margin:-107px 400px ;
+}
+#imgparrafo2_2{
+    height: 40px;
+    width: 40px;
+    margin:0 100px;
+}
+.li_parrafo2_3{
+    margin: 190px 400px
+}
+#imgparrafo2_3{
+    height: 60px;
+    width: 60px;
+    margin:0 100px;
+}
+
+.li_parrafo2_4{
+    margin: -265px 10px;
+}
+#imgparrafo2_4{
+    height: 40px;
+    width: 60px;
+    margin:0 60px;
+}
+
+#img_vacunacion{
+    margin: -295px 760px; 
+    height: 500px;
+    width: 500px;
+}
+
+
+/*Todo lo que involucra el parrafo 3*/
+.parrafo3{
+    font-family: Arial, Helvetica, sans-serif;
+    border:none solid black;
+    text-align: left;
+    height:630px;
+    
+}
+
+#ul_parrafo3{
+    margin: -350px 450px;
+    width: 700px;
+    
+}
+
+/*todo lo que involucra el parrafo 4*/
+div.parrafo4{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none solid black;
+    text-align: left;
+}
+
+/*Todo lo que involucra el futter*/
+footer{
+    border: none solid black;
+    background-color: rgba(127, 255, 212, 0.645);
+    height: 100px;
+}
+table{
+    width: max-content;
+    margin: 50px 800px;
+    text-align: center;
+    
+}
+#tdfooter{
+    padding: 15px;
+}
+#thfooter{
+    text-align: center;
+}
