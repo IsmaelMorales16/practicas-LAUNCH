@@ -1,0 +1,254 @@
+/*----------------------------------------globales---------------------------------------*/
+*{  margin: 0 5px; padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    color: rgba(44, 44, 199, 0.741);
+}
+
+h3{
+    color: rgb(0, 0, 102);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color: rgb(40, 3, 142);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url(./imagenes/back.webp);
+}
+
+/*----------------------------------------HEADER---------------------------------------*/
+header{
+    height: 50px;
+    background-image: url(./imagenes/fondo.png);
+    max-width: 1400px;
+}
+
+#ul_navegacion{
+    width: max-content;
+    font-size: 20px;
+}
+
+.nav_li{
+    display: inline;
+    margin: 5px;
+}
+
+#navegacion{
+    margin: -25px 700px;
+}
+
+#button_nav{
+    border-radius: 15px;
+    height: 25px;
+    width: 150px;
+}
+
+#titulo{
+    color: rgba(47, 0, 255, 0.524);
+    margin: 0 50px;
+}
+
+/*--------------------------------------ARTICULO 1---------------------------------------*/
+#sec_art1_info{
+    height: max-content;
+    max-width: 1400px;
+    background-size: 1400px;
+}
+/*imagen que da problemas ...... por que?????
+#img_art_1{
+    height: 200px;
+    width: 200px;
+    margin: 0 800px;
+}*/
+#ul_art1{
+    width: max-content;
+}
+.ul_art1_li{
+    display: inline;
+    width: max-content;
+}
+
+
+#estrella{
+    height: 30px;
+    width: 30px;
+}
+
+#escudo{
+    height: 30px;
+    width: 30px;
+}
+
+#ul_cita{
+    background-color: azure;
+    width: max-content;
+    margin: 0 50px;
+}
+
+.li_cita{
+    width: max-content;
+    display: inline-block;
+}
+
+#vacunas{
+    color: rgb(47, 0, 255);
+    border-style:ridge;
+    border-color: rgba(0, 0, 255, 0.327);
+}
+
+#fechas{
+    color: rgb(47, 0, 255);
+    border-style:ridge;
+    border-color: rgba(0, 0, 255, 0.327);
+}
+
+#ciudades{
+    color: rgb(47, 0, 255);
+    border-style:ridge;
+    border-color: rgba(0, 0, 255, 0.327);
+}
+
+#button_cita{
+    margin: -50 0;
+    height: 50px;
+    width: 150px;
+    color: rgb(47, 0, 255);
+    font-size: 15px;
+    background-color: rgba(0, 0, 255, 0.118);
+    border-color: blue;
+}
+
+/*----------------------------------------ARTICULO 2---------------------------------------*/
+
+#sec_atr2_info{
+    height: max-content;
+    max-width: 1400px;
+}
+
+.razon_li{
+    display:inline-block;
+    margin: 10px;
+
+}
+
+#img_razon1{
+    height: 30px;
+    width: 30px;
+    margin:0 100px;
+}
+
+#img_razon2{
+    height: 30px;
+    width: 30px;
+    margin:0 100px;
+
+}
+
+#img_razon3{
+    height: 30px;
+    width: 30px;
+    margin: 0 100px;
+
+}
+
+#img_razon4{
+    height: 30px;
+    width: 30px;
+    margin: 0 100px;
+}
+/*----------------------------------------ARTICULO 3---------------------------------------*/
+#toda_sec3{
+    height: 650px;
+    max-width: 1400px;
+}
+#sec_art3_info{
+    width: max-content;
+    margin: 150px 900px;    
+    
+}
+#paneles_informativos{
+    
+    width: max-content;
+    margin: 0 900px;
+}
+.panel_info{
+    margin-block: 10px;
+}
+.img_desp_menu{
+    height: 15px;
+    width: 15px;
+}
+
+#img_art3{
+    max-width: max-content;
+    height: max-content;
+    margin: -530px 0;
+}
+
+/*----------------------------------------ARTICULO 4---------------------------------------*/
+#sec_art4_info{
+    height:600px;
+    max-width: 1400px;
+    
+}
+.td_contactos{
+    text-align: center;
+    padding: 30px;
+}
+#tabla_contactos{
+    margin: 170px 150px;
+    color: blue;
+}
+#sec_img_art4{
+    margin: -655px 600px;
+    height:max-content;
+    width: max-content;
+}
+#img_art4{
+    width: max-content;
+    height: 520px;
+}
+.cont_img{
+    height: 35px;
+    width: 35px;
+}
+
+
+/*----------------------------------------FOOTER---------------------------------------*/
+footer{
+    max-width: 1400px;
+    height: max-content;
+    background-image: url(./imagenes/fondo.png);
+}
+#footer_info{
+    height: max-content;
+    width: max-content;
+}
+#tabla_footer{
+    text-align: center;
+    margin: -150px 700px;
+    width: 700px;
+}
+#tr_footer{
+    height: 30px;
+}
+#td_footer{
+    padding: 5px;
+    width: 150px;
+    height: 10px;
+}
+
+@media screen and (max-with:1024px) {
+    .text{
+        font-size: 16px;
+    }
+    
+}

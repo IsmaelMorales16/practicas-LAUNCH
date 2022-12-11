@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacunacion</title>
+    <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Vacunacion</h1>
+        <div id="navegacion">
+            <ul id="ul_navegacion">
+                <li class="nav_li">
+                    <a href="#">Base de datos</a>
+                </li>
+                <li class="nav_li">
+                    |
+                </li>
+                <li class="nav_li">
+                    <a href="#">Educacion</a>
+                </li>
+                <li class="nav_li">
+                    |
+                </li>
+                <li class="nav_li">
+                    <a href="#">Noticias</a>
+                </li>
+                <li class="nav_li">
+                    |
+                </li>
+                <li class="nav_li">
+                    <a href="#">Regulacion</a>
+                </li>
+              <button type="submit" id="button_nav">HOAX BUSTER</button>
+            </ul>
+        </div>
+    </header>
+
+    
+    <hr>
+
+   <!----------------------------------ARTICULO 1--------------------------> 
+    <article>
+        <section id="sec_art1_info">
+            <h2>
+                Pelea contra el virus, <br> VACUNATE!!!
+            </h2>
+            <p id="p_centrado"> Vamos a detener esta pandemia y acabar con el virus,
+                <br> no dejes que tu familia se infecte
+            </p>
+            <br>
+            <br>
+            <div id="ul_art1">
+                <ul>
+                    <li class="ul_art1_li">
+                        <img src="./imagenes/img_ul1_escudo.png" alt="escudo" id="escudo">
+                    </li>
+                    <li class="ul_art1_li">
+                        Mejor Proteccion
+                    </li>
+                    <li class="ul_art1_li">
+                        <img src="./imagenes/img_ul1_estrella.png" alt="estrella" id="estrella">
+                    </li>
+                    <li class="ul_art1_li">
+                        Elige Vacunarte
+                    </li>
+                </ul>            
+            </div>
+            <br>
+            <br>
+            <!--FORMULARIO PARA AGENDAR CITA-->
+            <form action="submit" id="agendar_cita" target="blank">
+                <ul id="ul_cita">
+                    <li  class="li_cita">
+                        <div id="ciudad" class="formu">
+                            <label for="locacion"> <img src="" alt="ubicacion"><br> ¿De donde eres?</label>
+                            <br> <input list="locacion" placeholder="Selecciona tu ciudad" id="ciudades">
+                            <datalist id="locacion">
+                                <option value="San Jose"></option>
+                                <option value="Cartago"></option>
+                                <option value="Heredia"></option>
+                                <option value="Limon"></option>
+                            </datalist>
+                        </div>
+                    </li>
+                    <li class="li_cita">
+                        <div id="fecha" class="formu">
+                            <label for="fecha_de_cita"><img src="" alt="calendario"><br> Seleccione el dia que desea su cita</label>
+                            <br><input type="date" id="fechas">
+                        </div>
+                    </li>
+                    <li class="li_cita">
+                        <div id="vacuna" class="formu">
+                            <label for="que_vacuna"><img src="" alt="vacuna"><br> Elija que vacuna desea resivir</label>
+                            <br> <input list="que_vacuna" placeholder="Escoja una vacuna" id="vacunas">
+                            <datalist id="que_vacuna">
+                                <option value="Astrazeneca"></option>
+                                <option value="Spuknik"></option>
+                                <option value="Pfizer"></option>
+                            </datalist>
+                    </li>
+                    <li class="li_cita">
+                        <div>
+                            <button type="submit" id="button_cita">Enviar</button>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+                
+            </form>
+           <!-- <img src="./imagenes/img_art1.png" alt="enfermera" id="img_art_1">,,,,,,,,,,,,,,,,,,,,,,,,,,,imagen fallando...por que???-->
+
+        </section>
+
+        <hr>
+
+    <!-----------------------------------ARTICULO 2-------------------------> 
+        <section id="sec_atr2_info">
+            <h2>¿Por que vacunarse?</h2>
+            <p>Para evitar dudas sobre las vacunas del covid-19
+                te mostramos 4 beneficios de vacunarse contra el covid-19
+            </p>
+            <br><br>
+            <ul id="razon_de_vacuna">
+                <li id="razon_li_1" class="razon_li">
+                    <img src="./imagenes/razon1.png" alt="no se propaga" id="img_razon1"><br>
+                    <h3>Minimiza la propagacion del viruz</h3>
+                    <p>las vacunas han logrado la prevencion efectiva <br>
+                         de infeccion de covid</p>
+                         <br>
+                </li>
+                <li id="razon_li_2" class="razon_li">
+                    <img src="./imagenes/razon2.png" alt="proteje" id="img_razon2"><br>
+                    <h3>Formando anticuerpos</h3>
+                    <p>Las vscunas contra el covid-19 <br>
+                         ayuda a los anticuerpos
+                        responsables <br> del sistema inmune
+                    </p>
+                </li>
+                <li id="razon_li_3" class="razon_li">
+                    <img src="./imagenes/razon3.png" alt="comunidad" id="img_razon3"><br>
+                    <h3>Protegiendo a los que te rodean</h3>
+                    <p>Al vacunarte estas protegiendo a las persona <br>
+                         que te rodean</p>
+                        <br>
+                </li>
+                <li id="razon_li_4" class="razon_li">
+                    <img src="./imagenes/razon4.png" alt="estadisticas" id="img_razon4"><br>
+                    <h3>Creanod un grupo de inmunidad</h3>
+                    <p>Las Vacunas contra el covid-19 son muy beneficiosas <br>
+                        para que crear grupos inmunes</p>
+                        <br>
+                </li>
+
+            </ul>
+        </section>
+
+        <hr>
+
+    <!-----------------------------------ARTICULO 3-------------------------> 
+        <section id="toda_sec3">
+            <section id="sec_art3_info">
+                <h2>Preparaciones antes de vacunarse</h2>
+                <p>El exito de las vacunas esta altamente influenciado por
+                    la fortaleza <br> del sistema inmunologico del cuerpo por lo tanto
+                    hay varias cosas <br> que se pueden intentar que la vacuna contra el covid-19 funcione
+                </p>
+            </section>
+            <section id="paneles_informativos">
+                <ul id="ul_preparacion">
+                    <!---------------------------la funcion de el script es para ocultar la informacion y evitar que se vea mucha letra-------------------------------------->
+                    <li class="panel_info">
+                        <script type="text/javascript">
+                            function toggle(obj) {
+                                    var obj=document.getElementById(obj);
+                                    if (obj.style.display == "block") obj.style.display = "none";
+                                    else obj.style.display = "block";
+                            }
+                            </script>
+                            
+                            <a href="javascript: void(0);" onClick="toggle('q1')" id="a1">
+                            Evita tomar bebidas alcoholicas <img src="./imagenes/desplegar_menu.png" alt="flecha hacia abajo" class="img_desp_menu">
+                            </a>
+                            <div id="q1" style="display:none;">
+                                “Teniendo en cuenta que el alcohol debilita la respuesta inmune,<br>
+                                lo más sano es no tomar ninguna bebida alcohólica los días anteriores y <br>
+                                posteriores a la vacuna, aunque necesitamos más estudios para saber de <br>
+                                cuánto tiempo estamos hablando exactamente”
+                            </div>
+                    </li>
+                    <!--
+                        -----------------------------------
+                    -->
+                    <li class="panel_info">
+                        <script type="text/javascript">
+                            function toggle(obj) {
+                                    var obj=document.getElementById(obj);
+                                    if (obj.style.display == "block") obj.style.display = "none";
+                                    else obj.style.display = "block";
+                            }
+                            </script>
+                            
+                            <a href="javascript: void(0);" onClick="toggle('q2')">
+                            Evita el estres <img src="./imagenes/desplegar_menu.png" alt="flecha hacia abajo" class="img_desp_menu">
+                            </a>
+                            <div id="q2" style="display:none;">
+                                El estres tiene un efecto profundo en el trabajo inmunologico <br>
+                                Ademas, el estres prolongado puede aumentar el cortisol producido <br>
+                                por el cuerpo
+                            </div>
+                    </li>
+                    <!--
+                        -----------------------------------
+                    -->
+                    <li class="panel_info">
+                        <script type="text/javascript">
+                            function toggle(obj) {
+                                    var obj=document.getElementById(obj);
+                                    if (obj.style.display == "block") obj.style.display = "none";
+                                    else obj.style.display = "block";
+                            }
+                            </script>
+                            
+                            <a href="javascript: void(0);" onClick="toggle('q3')">
+                            Comer comida sana <img src="./imagenes/desplegar_menu.png" alt="flecha hacia abajo" class="img_desp_menu">
+                            </a>
+                            <div id="q3" style="display:none;">
+                                Incluir pautas saludables antes de la inmunización <br>
+                                te ayudará a mantener fuertes tus defensas.
+                            </div>
+                    </li>
+                    <!--
+                        -----------------------------------
+                    -->
+                    <li class="panel_info">
+                        <script type="text/javascript">
+                            function toggle(obj) {
+                                    var obj=document.getElementById(obj);
+                                    if (obj.style.display == "block") obj.style.display = "none";
+                                    else obj.style.display = "block";
+                            }
+                            </script>
+                            
+                            <a href="javascript: void(0);" onClick="toggle('q4')">
+                            Dormir lo suficiente <img src="./imagenes/desplegar_menu.png" alt="flecha hacia abajo" class="img_desp_menu">
+                            </a>
+                            <div id="q4" style="display:none;">
+                                Dormir bien y tener un descanso reparador noche <br>
+                                tras noche ayuda a potenciar nuestro sistema inmunológico y <br>
+                                hace que nuestro organismo pueda defenderse frente a patógenos <br>
+                                externos con todos los recursos posibles.
+                            </div>
+                    </li>
+                    <!--
+                        -----------------------------------
+                    -->
+                    <li class="panel_info">
+                        <script type="text/javascript">
+                            function toggle(obj) {
+                                    var obj=document.getElementById(obj);
+                                    if (obj.style.display == "block") obj.style.display = "none";
+                                    else obj.style.display = "block";
+                            }
+                            </script>
+                            
+                            <a href="javascript: void(0);" onClick="toggle('q5')">
+                            Ejercicio o Actividad fisica <img src="./imagenes/desplegar_menu.png" alt="flecha hacia abajo" class="img_desp_menu">
+                            </a>
+                            <div id="q5" style="display:none;">
+                                Cualquier actividad física que se realiza ayuda a <br>
+                                aumentar las defensas del cuerpo humano, ayudando a la inmunización.
+                            </div>
+                    </li>
+                </ul>
+            </section>
+            <div id="img_art3">
+                <img src="./imagenes/img_art_3.png" alt="enfermera alzando el dedo" >
+            </div>
+
+        </section>   
+        <hr>
+
+    <!--------------------------------ARTICULO 4----------------------------> 
+        <section id="sec_art4_info">
+            <h2>Contacto de Emergencia</h2>
+            <p>Comuniquese con uno de los contactos a continuacion si usted o su familia se sienten mal <br>
+                y tienen sintomas,
+                como covid-19, asegurese de cuidarse tambien antes de informarnos 
+            </p>
+
+            <section id="contactos">
+                <table id="tabla_contactos">
+                    <tr class="tr_contactos">
+                        <td class="td_contactos">
+                            <img src="./imagenes/contactos_telefono.png" alt="telefono" class="cont_img" id="img_cont_telefono"> <br>
+                            Llamar <br> 123456789 <br>
+                            <button type="submit">Llamar Ahora</button>
+                        </td>
+                        <td class="td_contactos">
+                            <img src="./imagenes/contactos_mensaje.png" alt="chat" class="cont_img" id="img_cont_chat"> <br>
+                            Chat <br> 123546789 <br>
+                            <button type="submit">Chatear Ahora</button>
+                        </td>
+                    </tr>
+                    <tr class="tr_contactos">
+                        <td class="td_contactos">
+                            <img src="./imagenes/contactos_video.png" alt="camara" class="cont_img" id="img_cont_video"> <br>
+                            Video Llamada <br> 123456789 <br>
+                            <button type="submit">Llamar ahora</button>
+                        </td>    
+                        <td class="td_contactos">    
+                            <img src="./imagenes/contactos_mail.png" alt="sobre" class="cont_img" id="img_cont_mail"> <br>
+                            Mnesage <br> 123456789 <br>
+                            <button type="submit">Enviar Mensaje</button>                  
+                        </td>
+                    </tr>              
+                </table>
+            </section>
+            <div id="sec_img_art4">
+                <img src="./imagenes/img_art4.png"alt="Enfermero con telefono" id="img_art4">
+            </div>
+        </section>
+        
+    </article>
+    
+    <hr>
+
+    <footer>
+        <section id="footer_info">
+            <h3>Vacunacion</h3>
+            <p>Nuestro objetivo es ayudar al mundo de, la pandemia en curso</p>
+            
+        </section>
+        <section id="acerca_de_footer">
+            <table id="tabla_footer">
+                <th id="th_footer">
+                    Nosotros
+                </th>
+                <th id="th_footer">
+                    Empresa
+                </th>
+                <th id="th_footer">
+                    Soporte
+                </th>
+                <tr id="tr_footer">
+                    <td class="td_footer">
+                        <a href="#">
+                            Sobre Nosotros
+                        </a>
+                    </td>
+                    <br>
+                    <td id="td_footer">
+                        <a href="#">
+                        Trabaja con nosotros
+                        </a>
+                    </td>
+                    <br>
+                    <td class="td_footer">
+                        <a href="#">
+                            FAQs
+                        </a>
+                    </td>
+                </tr>
+                <tr id="tr_footer">
+                    <td class="td_footer">
+                        <a href="#">
+                            Caracteristicas
+                        </a>
+                    </td>
+                    <br>
+                    <td class="td_footer">
+                        <a href="#">
+                            Capital
+                        </a>
+                    </td>
+                    <br>
+                    <td class="td_footer">
+                        <a href="#">
+                            Centro de Apoyo
+                        </a>
+                    </td>
+                </tr>
+                <tr id="tr_footer">
+                    <td class="td_footer">
+                        <a href="#"> 
+                        Noticias y Blocs
+                        </a>
+                    </td>
+                    <br>
+                    <td class="td_footer">
+                        <a href="#">
+                            Seguridad
+                        </a>
+                    </td>
+                    <br>
+                    <td class="td_footer">
+                        <a href="#">
+                            Contactenos
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </footer>
+</body>
+
+</html>
