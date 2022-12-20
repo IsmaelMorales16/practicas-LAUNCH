@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokelaunch</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+      <img src="./imagenes/pokeLogo.png" alt="logo" id="pokelogo">
+    </div>
+  </header>
+
+  <container id="lados">
+    <!-----------Lado Izquierdo---------------->
+    <div id="lado_izquierdo">
+      <div id="flechas_izquierda">
+        <img src="./imagenes/flechas_izq.png" alt="flechas" id="flecha_izq">
+      </div>
+      <div id="radar_izquierdo">
+        <img src="./imagenes/radar_izq.gif" alt="radar" id="radar_izq">
+      </div>
+    </div>
+
+    <!-----------Central---------------->
+
+    <div id="central">
+
+      <div id="pokeImagen">
+        <img src="./imagenes/pokeball.gif" alt="pokemon" id="pokeImg">
+      </div>
+      <div class="pokeInfo">
+        <div id="buscar">
+            <input type="text" placeholder="Nombre de pokemon / Poke id" id="pokeName">
+            <button onclick="fetchPokemon()" id="pokebotton">Buscar</button>  
+            <div class="pokeScreen" id="abilities"></div>
+        </div>
+      </div>
+
+    </div>
+    <!-----------Lado Derecho---------------->
+
+    <div id="lado_derecho">
+
+      <div id="jostick">
+        <div id="base_jostick">
+          <div id="cabeza_jostick">
+          </div>
+        </div>
+      </div>
+
+      <div id="entradas">
+        <div id="entrada1">
+          <div id="fondo_entrada1"></div>
+        </div>
+      </div>
+    </div>
+  </container>
+  <footer>
+    <script src="./funcion.js"></script>
+  </footer>
+</body>
+</html>
